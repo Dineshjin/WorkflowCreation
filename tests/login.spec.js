@@ -12,6 +12,6 @@ test('login_page',async ({page})=>{
   const successMsg = await loginPage.getSuccessMessage();
   expect.soft(successMsg).toEqual(data.result_txt);
 
-  console.log(successMsg)
+  console.log(successMsg) //added print 
     
 })
