@@ -1,0 +1,6 @@
+{
+    "username": "//input[@name='username']",
+    "password": "//input[@type='password']",
+    "Submit": "//button[text()='Submit']",
+    "result_txt": "//h1[@class='post-title']"
+}
