@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',credentialsId: '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', url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                git branch: 'main',credentialsId: 'aee3f65d-d6d9-4500-927f-02a1f3f7fefa', url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
             }
         }
         stage('Install Dependencies') {
