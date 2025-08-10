@@ -8,7 +8,7 @@ pipeline {
             steps {
                 git branch: 'master',
                 credentialsId: 'aee3f65d-d6d9-4500-927f-02a1f3f7fefa', 
-                url: 'https://github.com/YOUR_USERNAME/YOUR_REPO.git'
+                url: 'https://github.com/Dineshjin/WorkflowCreation.git'
             }
         }
         stage('Install Dependencies') {
